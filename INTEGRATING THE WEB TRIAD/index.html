@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student E-Portfolio</title>
+
+<!-- Connection 1: External CSS Link -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Connection 2: External JavaScript Link -->
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>Alixandrei Nikkole Agton E-Portfolio</h2>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- Dynamic Target 1: Dark Mode Toggle -->
+    <button id="theme-btn">Toggle Dark Mode</button>
+  </nav>
+</header>
+
+<main>
+  <section id="hero">
+    <h1>Hello, I'm an IT Student</h1>
+    <p>Welcome to my web development showcase.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+      <h3>E-Portfolio Site</h3>
+      <p>Built using standard HTML, CSS, and Vanilla JavaScript.</p>
+    </div>
+    <div class="card">
+      <h3>Web Integration Lab</h3>
+      <p>A demonstration of linking HTML, CSS, and JS.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <!-- Dynamic Target 2: Interactive Alert Button -->
+    <button id="contact-btn">Send Message</button>
+  </section>
+</main>
+
+<footer>
+  <!-- Dynamic Target 3: Year Injection -->
+  <p>&copy; <span id="year"></span> Alixandrei Nikkole Agton. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
